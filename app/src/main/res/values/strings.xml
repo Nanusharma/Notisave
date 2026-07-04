@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Notisave</string>
+    <string name="notification_channel_name">Notisave Status</string>
+    <string name="notification_channel_description">Shows that Notisave is actively recording notifications</string>
+    <string name="foreground_notification_title">Notisave is active</string>
+    <string name="foreground_notification_text">Recording notifications in the background</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Never lose a notification again</string>
+    <string name="onboarding_subtitle">Notisave silently records every notification so you can review them anytime — even after they\'re dismissed.</string>
+    <string name="onboarding_step1_title">Capture Everything</string>
+    <string name="onboarding_step1_desc">Every notification from every app is instantly saved the moment it appears.</string>
+    <string name="onboarding_step2_title">Always Available</string>
+    <string name="onboarding_step2_desc">Even if you swipe away a notification, it stays safely in your history.</string>
+    <string name="onboarding_step3_title">Private &amp; Local</string>
+    <string name="onboarding_step3_desc">All data stays on your device. Nothing is ever sent to the cloud.</string>
+    <string name="onboarding_grant_access">Grant Notification Access</string>
+    <string name="onboarding_permission_note">You\'ll be taken to system settings to enable access for Notisave.</string>
+    <string name="onboarding_access_granted">Access Granted ✓</string>
+
+    <!-- Main Screen -->
+    <string name="search_hint">Search notifications…</string>
+    <string name="no_notifications_title">No notifications yet</string>
+    <string name="no_notifications_subtitle">Notifications will appear here as they arrive on your device.</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="all_apps">All Apps</string>
+    <string name="removed_label">Dismissed</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_listener_status">Listener Status</string>
+    <string name="settings_listener_active">Active — recording notifications</string>
+    <string name="settings_listener_inactive">Inactive — tap to enable</string>
+    <string name="settings_data_retention">Data Retention</string>
+    <string name="settings_retention_days">Keep notifications for %d days</string>
+    <string name="settings_retention_forever">Keep notifications forever</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_battery">Battery Optimization</string>
+    <string name="settings_battery_exempt">Notisave is exempt from battery optimization</string>
+    <string name="settings_battery_not_exempt">Tap to exempt Notisave from battery optimization</string>
+    <string name="settings_clear_data">Clear All Data</string>
+    <string name="settings_clear_confirm">Are you sure? This will permanently delete all saved notifications.</string>
+    <string name="settings_about">About Notisave</string>
+    <string name="settings_version">Version %s</string>
+
+    <!-- Detail -->
+    <string name="detail_posted_at">Posted at</string>
+    <string name="detail_copy">Copy Text</string>
+    <string name="detail_copied">Copied to clipboard</string>
+
+    <!-- Actions -->
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+</resources>
