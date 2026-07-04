@@ -6,6 +6,7 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -202,6 +203,7 @@ fun NotificationListScreen(
 /**
  * Groups notifications by day and renders them with sticky date headers.
  */
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun GroupedNotificationList(
     notifications: List<NotificationEntity>,
@@ -229,7 +231,7 @@ private fun GroupedNotificationList(
                     item = notification,
                     onClick = { onNotificationClick(notification) },
                     onDelete = { onDelete(notification) },
-                    modifier = Modifier.animateItem()
+                    modifier = Modifier.animateItemPlacement()
                 )
             }
         }
