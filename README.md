@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔔 Notisave
+#  Notisave
 
 **Never lose a notification again.**
 
