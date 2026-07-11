@@ -16,22 +16,22 @@ A sleek, privacy-first Android app that silently captures and organizes every no
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 📥 **Auto-Capture** | Silently records every incoming notification using Android's `NotificationListenerService` |
-| 🔍 **Search & Filter** | Instantly find past notifications by keyword or filter by app |
-| 📋 **Detail View** | Tap any notification to see its full content in a clean bottom sheet |
-| 🎨 **Theming** | System / Light / Dark theme modes with Material You dynamic colors |
-| 🗓️ **Data Retention** | Configurable auto-cleanup — keep for 7, 14, 30, 90 days, or forever |
-| 🔒 **100% Local** | All data stays on-device in a local Room database. No servers, no cloud, no tracking |
-| 🩺 **Self-Healing** | Background health worker ensures the listener service stays alive |
-| 🚀 **Boot Persistence** | Automatically restarts the listener after device reboot |
+|  **Auto-Capture** | Silently records every incoming notification using Android's `NotificationListenerService` |
+|  **Search & Filter** | Instantly find past notifications by keyword or filter by app |
+|  **Detail View** | Tap any notification to see its full content in a clean bottom sheet |
+|  **Theming** | System / Light / Dark theme modes with Material You dynamic colors |
+|  **Data Retention** | Configurable auto-cleanup — keep for 7, 14, 30, 90 days, or forever |
+|  **100% Local** | All data stays on-device in a local Room database. No servers, no cloud, no tracking |
+|  **Self-Healing** | Background health worker ensures the listener service stays alive |
+|  **Boot Persistence** | Automatically restarts the listener after device reboot |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 com.notisave.app
@@ -49,7 +49,7 @@ com.notisave.app
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -67,7 +67,7 @@ com.notisave.app
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ cd Notisave
 ./gradlew installDebug
 ```
 
-Or simply open the project in Android Studio and hit ▶️ **Run**.
+Or simply open the project in Android Studio and hit  **Run**.
 
 ### CI / CD
 
@@ -109,7 +109,7 @@ The project includes a GitHub Actions workflow that automatically builds debug &
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
@@ -121,7 +121,7 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available for personal and educational use.
 
@@ -129,6 +129,6 @@ This project is open-source and available for personal and educational use.
 
 <div align="center">
 
-**Made with ❤️ using Kotlin & Jetpack Compose**
+**Made with ❤️**
 
 </div>
