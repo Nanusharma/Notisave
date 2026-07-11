@@ -99,7 +99,7 @@ The project includes a GitHub Actions workflow that automatically builds debug &
 
 ---
 
-## 📱 Permissions
+##  Permissions
 
 | Permission | Why it's needed |
 |---|---|
